@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: khaki;
+    margin: 2rem;
+    padding: 3rem;
+    height: 100vh;
+
+}
+.body{
+    background-color: white;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    border-radius:5%;
+    
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation > .left-column,.center-column,.right-column, .bottom-right{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color:grey;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mainbody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.mainbody > .image{
+    height: 50vh;
+    width: 50%;
+    border-radius: 5%;
+}
+
+form{
+    padding: 1rem 1rem 1rem 0rem;
+}
+form > .email{
+    background-color:beige;
+    font-size: 1.5rem;
+    height:7vh;
+border:0;
+}
+.body > .navigation > .left-column > a > img{
+    height:10vh;
+}
+.mainbody > .text-body > h1{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body > .navigation > .left-column > a > h3{
+color: black;
+}
+.body > .navigation > .left-column > .design{
+  background-image: linear-gradient(to left, red, orange);
+  border-radius: 10%;
+  padding:0.5rem
+}
+.body > .navigation > .left-column > .design > p{
+    color:white;
+  }
+.wait{
+    background-color: blue;
+    color:white;
+    border-radius: 3%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.limb{
+    color:black;
+}
+.bottom-image{
+    border-radius:50%;
+    height: 50px;
+    width: 50px;
+}
